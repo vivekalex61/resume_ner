@@ -102,11 +102,5 @@ Below are the results  got from trained transformer.
 
 The predictions are not upto the mark. The main reason is because of little data.
 It will  perform well if we have atleast 1000 training sampples.
-## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
 
