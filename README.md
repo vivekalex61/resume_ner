@@ -121,13 +121,12 @@ Types of scoring in MCU:
 
 Error Metrics in MCU:
 
-
-
-ref: https://aclanthology.org/M93-1007.pdf
-
 ![alt text](https://raw.githubusercontent.com/vivekalex61/resume_ner/main/images/system_dept_err.png)
 ![alt text](https://raw.githubusercontent.com/vivekalex61/resume_ner/main/images/recall_precision_metrics.png)
 ![alt text](https://raw.githubusercontent.com/vivekalex61/resume_ner/main/images/fscore.png)
+
+
+ref: https://aclanthology.org/M93-1007.pdf, https://www.davidsbatista.net/blog/2018/05/09/Named_Entity_Evaluation/
 
 
 ## Results
