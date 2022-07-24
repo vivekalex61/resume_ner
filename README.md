@@ -91,6 +91,45 @@ we have downloaded tokenizer files locally  https://huggingface.co/bert-base-unc
 4)predicting entities
 
 3)Convert prediction prediction into JSON format
+
+#### Evaluation metrics used
+
+##### MUC-5 EVALUATION METRICS
+
+The MUC-5 Scoring System is evaluation software that aligns and scores the templates produced by th e
+information extraction systems under evaluation in comparison to an "answer key" created by humans . The Scoring
+System produces comprehensive summary reports showing the overall scores for the templates in the test set ;
+
+The basic scoring categories are found in the score report under the column headings COR, PAR, INC,
+XCR, XPA, XIC, MIS, SPU, and NON.
+
+• If the response and the key are deemed to be equivalent, the category is correct (COR); if interactively
+assigned, a tally appears in both the COR and XCR (interactive correct) columns.
+• If the response and the key are judged to be a near match, the category is partial (PAR) ; if interactively
+assigned, a tally appears in both the PAR and XPA (interactive partial) columns .
+• If the key and response do not match, the category is incorrect (INC) ; if interactively assigned, a tall y
+appears in both the INC and XIC (interactive incorrect) columns.
+• If the key has a fill and the response has no corresponding fill, the category is missing (MIS) .
+• If the response has a fill which has no corresponding fill in the key, the category is spurious (SPU) .
+• If the key and response are both left blank, then the category is noncommittal (NON) .
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/resume_ner/main/images/MCU_Eval.png)
+
+Types of scoring in MCU:
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/resume_ner/main/images/manners_scoring.png)
+
+Error Metrics in MCU:
+
+
+
+ref: https://aclanthology.org/M93-1007.pdf
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/resume_ner/main/images/system_dept_err.png)
+![alt text](https://raw.githubusercontent.com/vivekalex61/resume_ner/main/images/recall_precision_metrics.png)
+![alt text](https://raw.githubusercontent.com/vivekalex61/resume_ner/main/images/fscore.png)
+
+
 ## Results
 Below are the results  got from trained transformer.
 
